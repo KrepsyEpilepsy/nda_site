@@ -1,0 +1,146 @@
+@charset "utf-8";
+
+body{
+	margin: 0;
+	background-color: #f4f4f4;
+}
+		header {
+			background: black;
+			color: white;
+			padding: 0px 15px 0 15px;
+			margin: 0;
+		}
+/*----------------------panou sus butoane--------------------------*/
+			nav {
+				font-family: 'Open Sans', sans-serif;
+				font-size: 120%;
+			}
+
+				nav ul {
+					margin: 0;
+					padding: 0 0 0 15px;
+					display: inline;
+
+				}
+					nav ul li {
+						background: black;
+						color: green;
+						font-weight: bold;
+						display: inline-block;
+						list-style-type: none;
+						padding: 5px 15px;
+						margin: 0;
+					}
+						nav ul li a {
+							color: white;
+						}
+						#links a{
+							text-decoration:none;
+						}
+						header a:hover {
+							color: gray;
+							font-weight: bolder;
+						}
+						
+/*---------------------------titlu pagina----------------------------*/				
+		#head1 { 				
+			background: white;
+			color: black;
+			text-align: center;
+
+		}
+			.font_face_lobster {
+				font-family: 'Lobster', cursive;
+			}
+
+/*----------------------------poza logo pagina-------------------------*/	
+.top_banner {
+	background-color: white;
+}
+
+	.main_page_logo {
+		display: block;
+	  	margin-left: auto;
+	  	margin-right: auto;
+	  	padding: 10px;
+	  	width: 15%;
+	}
+	#head1 {
+		
+	}
+
+	.thumbnail {
+		margin-top: -20%;
+		margin-right: 50px;
+		float: right;
+		width: 5%;
+		box-shadow: none;
+		border: 0;
+	}
+	.fblogo, .ytlogo, .instalogo, .dalogo {
+	display: table-column-group;
+	padding: 5px;
+	float: right;	
+	}
+		.center-block {
+		  	display: block;
+		  	margin-left: auto;
+		  	margin-right: auto;
+		 }
+/*-----------------------------sectiune mijloc------------------------*/
+.container {
+	overflow: hidden;
+	margin-right: auto;
+}
+.midpage {
+	background-color: green;
+}
+.border {
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	
+}
+	.midpage_about {
+		background-color: black;
+		width: 100%;
+		color: white;
+		text-align: center;
+
+	}
+			#midpage_title {				
+				
+			}
+			
+			#midpage_subtitle {
+				font-family: 'Open Sans', sans-serif;
+				font-size: 150%;
+			}
+			#midpage_about_description {
+				font-family: 'Open Sans Condensed', sans-serif;
+				font-size: 150%;
+			}
+	.midpage_background {
+
+		padding-top: 100px;
+		min-height: 300px;
+		width: 100%;
+	}
+.highlight {
+	color: red;
+	font-weight: bold;
+}
+/*-----------------------------newsletter?--------------------*/	
+#message{
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+footer {
+	font-family: 'Open Sans', sans-serif;
+	clear: both;
+	text-align: center;
+}
+
